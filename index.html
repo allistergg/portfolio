@@ -1,55 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="index.css"/>
-  <title>Document</title>
+  <meta name="robots" content="noindex">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="icon" href="images/favicon.ico"/>
+  <title>Allister Rooke</title>
 </head>
+
 <body>
-  <section>
-    <h1>Allister Rooke</h1>
-    <p>Full Stack Developer</p>
-  </section>
-  <section>
-    <h2>Bio</h2>
-    <p>I am a full stack developer based in Atlanta and recent graduate of Thinkful's Engineering Immersion program.
-      I enjoy coding, solving problems, and learning new things. I have a background in English language
-      teaching which I performed in nine countries over the last ten years. When I'm not coding,
-      I enjoy reading, studying, traveling, and playing tennis and soccer.
-    </p>
-  </section>
-  <section>
-    <h2>Recent Projects</h2>
-    <div>
-      <h3>CallMeter <a href="#">Link to Live App</a><a href="#">Github link</a></h3>
-      <p>Callmeter is an app that lets users make calls, track calls, manage clients, and send invoices
-        all from the browser.
-      </p>
-      <p>Technologies used: React, Redux, Node, Express, MongoDB, Twillio</p>
-      <img src="images/callmeterss.JPG"/>
+  <header class="hero">
+    <div class="inner-hero">
+      <h1>Allister Rooke</h1>
+      <p>Full Stack Developer</p>
     </div>
-    <div>
-      <h3>Note Shark<a href="#">Link to Live App</a><a href="#">Github link</a></h3>
-      <p>Knotes is an app that helps people learn to read musical notes using spaced repetition.</p>
-      <p>Technologies used: React, Redux, Node, Express, MongoDB</p>
-      <img src="images/notesharkss.png"/>
-    </div>
-    <div>
-      <h3>Habit Tracker<a href="#">Link to Live App</a><a href="#">Github link</a></h3>
-      <p>Habit Tracker is an app that lets users add habits and track their completion over the week.</p>
-      <p>Technologies Used: React, Redux, Node, Express, MongoDB</p>
-    <img src="images/habittracker.png"/>
-    </div>
+  </header>
+  <nav id="nav" class="nav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#projects">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <section id="about" class="about">
+      <div class="about-inner">
+        <h2>About Me</h2>
+        <p>I am a full stack developer based in Atlanta and recent graduate of Thinkful's Engineering Immersion
+          program.
+          I enjoy coding, solving problems, and learning new things. I have a background in English language
+          teaching which I performed in nine countries over the last ten years. When I'm not coding,
+          I enjoy reading, studying, traveling, and playing tennis and soccer.
+        </p>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Recent Projects</h2>
+      <div class="project">
+        <h3><a href="https://callmeter.netlify.com/">CallMeter</a></h3>
+        <p><a href="https://github.com/thinkful-ei25/billable-client"><img src="images/GitHub_Logore.png" /></a></p>
+        <p>Callmeter is an app that lets users make calls, track calls, manage clients, and send invoices
+          all from the browser.
 
-  </section>
-  <section>
-    <h2>Contact</h2>
-    <p>email: <a href="mailto:allisterg@gmail.com">allisterg@gmail.com</a></p>
-    <p>github: <a href="github.com/allistergg">allistergg</a></p>
-    <p>linkedIn: <a href="linkedin.com">linkedIn</a></p>
-  </section>
+          <span>Technologies used: React, Redux, Node, Express, MongoDB, Twillio</span></p>
+        <img class="projectss" src="images/callmeterssre.JPG" />
 
+      </div>
+      <div class="project">
+        <h3><a href="https://knotes-client-sam.herokuapp.com/">Note Shark</a></h3>
+        <p><a href="https://github.com/thinkful-ei25/knotes-client-sam-allister-mischa"><img src="images/GitHub_Logore.png" /></a></p>
+        <p>Note Shark is an app that helps people learn to read musical notes using spaced repetition.
+          <span>Technologies Used: React, Redux, Node, Express, MongoDB</span></p>
+        <img class="projectss" src="images/notesharkssre.png" />
+      </div>
+      <div class="project">
+        <h3><a href="https://hidden-waters-84453.herokuapp.com/">Habit Tracker</a></h3>
+        <p><a href="https://github.com/allistergg/habit-tracker-client"><img src="images/GitHub_Logore.png" /></a></p>
+        <p>Habit Tracker is an app that lets users add habits and track their completion over the week.
+          <span>Technologies Used: React, Redux, Node, Express, MongoDB </span></p>
+        <img class="projectss" src="images/habittrackerre.png" />
+      </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>email: <a href="mailto:allisterg@gmail.com">allisterg@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/allistergg">allistergg</a></p>
+      <p>linkedIn: <a href="https://linkedin.com/in/allister-rooke">linkedIn</a></p>
+    </section>
+  </main>
 </body>
+
 </html>
