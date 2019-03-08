@@ -101,3 +101,8 @@ section {
 .project {
   padding: 5%;
 }
+
+.hero-link {
+  text-decoration: none;
+  font-size: 20px;
+}
